@@ -134,8 +134,8 @@ header a:hover:after {
 
 #center img {
   position: absolute;
-  left: 75px;
-  top: -30px;
+  left: 5%;
+  top: -7%;
   transform: rotate(-30deg);
   z-index: 1;
   transition: 0.5s;
@@ -234,7 +234,7 @@ header a:hover:after {
 }
 
 .ligne {
-  width: 500px;
+  width: 33%;
   position: absolute;
   right: 0;
   top: 550px;
@@ -242,7 +242,7 @@ header a:hover:after {
 }
 
 .ligne2 {
-  width: 700px;
+  width: 46%;
   position: absolute;
   right: 13%;
   bottom: -10%;
@@ -250,7 +250,7 @@ header a:hover:after {
 }
 
 .ligne3 {
-  width: 700px;
+  width: 42%;
   position: absolute;
   bottom: 33%;
   left: 3%;
@@ -258,7 +258,7 @@ header a:hover:after {
 }
 
 .ligne4 {
-  width: 250px;
+  width: 16%;
   position: absolute;
   left: 40%;
   top: 46%;
