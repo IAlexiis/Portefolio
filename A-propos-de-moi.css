@@ -132,18 +132,20 @@ header a:hover:after {
 
 /* MAIN */
 
-#center img {
+#card img {
   position: absolute;
-  left: 5%;
-  top: -7%;
+  left: 0;
+  top: 0;
   transform: rotate(-30deg);
   z-index: 1;
   transition: 0.5s;
-  width: 200px;
+  width: 17%;
+  translate: -49% -64%;
 }
-#center img:hover {
-  transform: scale(1.2);
-  rotate: -30deg;
+
+#card:hover img {
+  transform: rotate(-30deg) scale(1.2);
+  transition: transform 0.5s ease;
 }
 
 #center {
@@ -155,6 +157,7 @@ header a:hover:after {
   gap: 200px;
   position: relative;
 }
+
 #card {
   display: flex;
   color: white;
@@ -164,12 +167,12 @@ header a:hover:after {
   border: solid 2px white;
   border-radius: 40px;
   padding: 50px;
-  z-index: 2;
+  position: relative;
+  background-color: black;
 }
 #card a {
   width: 150px;
   height: 50px;
-
   border-radius: 20px;
   font-weight: bold;
   border: solid white 2px;
