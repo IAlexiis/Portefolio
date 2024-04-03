@@ -139,7 +139,7 @@ header a:hover:after {
   transform: rotate(-30deg);
   z-index: 1;
   transition: 0.5s;
-  width: 17%;
+  width: 15%;
   translate: -49% -64%;
 }
 
@@ -212,6 +212,63 @@ header a:hover:after {
 #card p {
   text-align: justify;
 }
+
+.cit {
+  padding: 5% 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cit hr {
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+
+.animated-text {
+  /* padding: 50px 0 50px 0; */
+  overflow: hidden;
+  color: white;
+  height: 60px;
+}
+
+.line {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line:first-child {
+  animation: anim 12s infinite;
+}
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
+  }
+  16% {
+    margin-top: -60px;
+  }
+  33% {
+    margin-top: -120px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  66% {
+    margin-top: -120px;
+  }
+  82% {
+    margin-top: -60px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
 #formations h2 {
   font-size: 35px;
   padding-bottom: 20px;
@@ -229,7 +286,6 @@ header a:hover:after {
 }
 
 #formations {
-  padding-top: 100px;
   display: flex;
   color: white;
   flex-direction: column;
@@ -298,10 +354,26 @@ header a:hover:after {
   object-fit: cover;
   transition: 0.5s;
   border-radius: 20px;
+  animation: scaleRotate 4s infinite;
 }
-#mds img:hover {
-  transform: scale(1.1);
+
+@keyframes scaleRotate {
+  0%,
+  33% {
+    /* L'animation se déroule sur les premiers 33% du temps */
+    transform: scale(1) rotate(0deg);
+  }
+  0% {
+    /* Point culminant de l'animation à 1 seconde */
+    transform: scale(1.1) rotate(360deg);
+  }
+  33.1%,
+  100% {
+    /* Pause pour le reste du temps */
+    transform: scale(1) rotate(0deg);
+  }
 }
+
 #mds-text {
   display: flex;
   flex-direction: column;
@@ -338,9 +410,7 @@ header a:hover:after {
   object-fit: cover;
   transition: 0.5s;
   border-radius: 20px;
-}
-#lpo img:hover {
-  transform: scale(1.1);
+  animation: scaleRotate 4s infinite;
 }
 #experiences {
   padding-top: 100px;
@@ -380,9 +450,7 @@ header a:hover:after {
   transition: 0.5s;
   border-radius: 20px;
   transition: 0.2s;
-}
-#its img:hover {
-  transform: scale(1.1);
+  animation: scaleRotate 4s infinite;
 }
 #its {
   border: solid 2px white;
@@ -435,10 +503,9 @@ header a:hover:after {
   object-fit: cover;
   transition: 0.5s;
   border-radius: 20px;
+  animation: scaleRotate 4s infinite;
 }
-#Lidl img:hover {
-  transform: scale(1.1);
-}
+
 #center4 {
   display: flex;
   flex-direction: column;
