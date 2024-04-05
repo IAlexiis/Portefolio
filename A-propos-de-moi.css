@@ -227,7 +227,6 @@ header a:hover:after {
 }
 
 .animated-text {
-  /* padding: 50px 0 50px 0; */
   overflow: hidden;
   color: white;
   height: 60px;
@@ -292,39 +291,6 @@ header a:hover:after {
   position: relative;
 }
 
-.ligne {
-  width: 33%;
-  position: absolute;
-  right: 0;
-  top: 550px;
-  z-index: -1;
-}
-
-.ligne2 {
-  width: 46%;
-  position: absolute;
-  right: 13%;
-  bottom: -10%;
-  z-index: -1;
-}
-
-.ligne3 {
-  width: 42%;
-  position: absolute;
-  bottom: 33%;
-  left: 3%;
-  z-index: -1;
-}
-
-.ligne4 {
-  width: 16%;
-  position: absolute;
-  left: 40%;
-  top: 46%;
-  z-index: -1;
-  rotate: -10deg;
-}
-
 #center2 {
   display: flex;
   flex-direction: row;
@@ -360,16 +326,13 @@ header a:hover:after {
 @keyframes scaleRotate {
   0%,
   33% {
-    /* L'animation se déroule sur les premiers 33% du temps */
     transform: scale(1) rotate(0deg);
   }
   0% {
-    /* Point culminant de l'animation à 1 seconde */
     transform: scale(1.1) rotate(360deg);
   }
   33.1%,
   100% {
-    /* Pause pour le reste du temps */
     transform: scale(1) rotate(0deg);
   }
 }
@@ -441,7 +404,6 @@ header a:hover:after {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding-bottom: 100px;
 }
 #its img {
   width: 150px;
@@ -513,3 +475,76 @@ header a:hover:after {
   gap: 50px;
   padding-bottom: 100px;
 }
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  flex-direction: column;
+  padding-bottom: 120px;
+}
+
+.social-menu ul {
+  padding: 0 0 40px 0;
+  margin: 0;
+  display: flex;
+}
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: 0.5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.5s;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: black;
+  border: solid 2px rgb(255, 255, 255);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #000000;
+  border: solid 2px white;
+  color: white;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #000000;
+  border: solid 2px white;
+  color: white;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #000000;
+  border: solid 2px white;
+  color: white;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #000000;
+  border: solid 2px white;
+  color: white;
+}
+
+footer hr {
+  width: 15%;
+}
+
+/* FOOTER */

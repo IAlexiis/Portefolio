@@ -100,7 +100,6 @@ header a:hover:after {
 
 #barre {
   background-color: black;
-  width: 25px;
   height: 200px;
   border-right: solid 2px white;
 }
@@ -129,7 +128,7 @@ header a:hover:after {
 #accueil {
   display: flex;
   gap: 100px;
-  padding-top: 50px;
+  padding: 50px 0;
   justify-content: center;
   align-items: center;
 }
