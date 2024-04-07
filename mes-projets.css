@@ -120,7 +120,27 @@ main {
   gap: 100px;
 }
 
-.titre-box h2 {
+.titre-box1 h2 {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 25px 80px;
+  background: none;
+  border-radius: 20px;
+  box-shadow: 0 6px #ffffff;
+  border: solid 2px white;
+}
+
+.titre-box2 h2 {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 25px 80px;
+  background: none;
+  border-radius: 20px;
+  box-shadow: 0 6px #ffffff;
+  border: solid 2px white;
+}
+
+.titre-box3 h2 {
   font-size: 30px;
   color: #ffffff;
   padding: 25px 80px;
@@ -290,7 +310,6 @@ main {
   border: solid white 2px;
   border-radius: 40px;
   width: 70%;
-  height: 525px;
   padding: 50px;
   gap: 40px;
   position: relative;
@@ -312,6 +331,56 @@ main {
 .column img {
   width: 75%;
   border-radius: 10px;
+}
+
+.card5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid white 2px;
+  border-radius: 40px;
+  width: 70%;
+  padding: 50px;
+  gap: 40px;
+  position: relative;
+}
+
+.familly {
+  border-radius: 10px;
+  width: 30%;
+}
+
+.card5:hover .lines {
+  transform: scale(1.2) rotate(-75deg);
+}
+
+.card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid white 2px;
+  border-radius: 40px;
+  width: 70%;
+  padding: 50px;
+  gap: 40px;
+  position: relative;
+}
+
+.knight {
+  border-radius: 10px;
+  width: 30%;
+}
+
+.card6:hover .lines2 {
+  transform: scale(1.2) rotate(97deg);
+}
+
+.com {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
 
 /* MAIN */
