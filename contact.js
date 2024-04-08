@@ -2,6 +2,7 @@ const loader = document.querySelector(".loader");
 
 window.addEventListener("load", () => {
   loader.classList.add("fondu-out");
+  loader.remove();
 });
 
 const btn = document.querySelector(".btn");

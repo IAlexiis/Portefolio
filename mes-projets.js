@@ -2,6 +2,7 @@ const loader = document.querySelector(".loader");
 
 window.addEventListener("load", () => {
   loader.classList.add("fondu-out");
+  loader.remove();
 });
 
 const txtAnim = document.querySelector(".titre-box1 h2");
