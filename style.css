@@ -512,7 +512,6 @@
 
 @media (max-width: 1023px) {
   .mobile {
-    display: block;
     color: white;
     width: 100%;
     height: 100%;
@@ -521,10 +520,14 @@
     justify-content: center;
     font-size: 15px;
     text-align: center;
-    padding-top: 40%;
     flex-direction: column;
+    background-color: #000;
+    padding-top: 20%;
   }
 
+  html {
+    background-color: black;
+  }
   .mobile img {
     width: 200px;
   }
@@ -539,12 +542,165 @@
     display: none;
   }
 
+  .lettre {
+    color: #484848;
+    font-size: 80px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+    font-size: 40px;
+  }
+  @keyframes flash {
+    0% {
+      color: #c6c6c6;
+      text-shadow: 0 0 7px #c6c6c6;
+    }
+    90% {
+      color: #484848;
+      text-shadow: none;
+    }
+    100% {
+      color: #c6c6c6;
+      text-shadow: 0 0 7px #c6c6c6;
+    }
+  }
+
+  .lettre:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .lettre:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .lettre:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .lettre:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  .lettre:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  .lettre:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+  .lettre:nth-child(7) {
+    animation-delay: 0.7s;
+  }
+  .lettre:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+  .lettre:nth-child(9) {
+    animation-delay: 0.9s;
+  }
+  .lettre:nth-child(10) {
+    animation-delay: 1s;
+  }
+  .lettre:nth-child(11) {
+    animation-delay: 1.1s;
+  }
+  .lettre:nth-child(12) {
+    animation-delay: 1.2s;
+  }
+  .lettre:nth-child(13) {
+    animation-delay: 1.3s;
+  }
+  .lettre:nth-child(14) {
+    animation-delay: 1.4s;
+  }
+  .lettre:nth-child(15) {
+    animation-delay: 1.5s;
+  }
+  .lettre:nth-child(16) {
+    animation-delay: 1.6s;
+  }
+  .lettre:nth-child(17) {
+    animation-delay: 1.7s;
+  }
+  .lettre:nth-child(18) {
+    animation-delay: 1.8s;
+  }
+  .lettre:nth-child(19) {
+    animation-delay: 1.9s;
+  }
+  .lettre:nth-child(20) {
+    animation-delay: 2s;
+  }
+  .lettre:nth-child(21) {
+    animation-delay: 2.1s;
+  }
+  .lettre:nth-child(22) {
+    animation-delay: 2.2s;
+  }
+  .lettre:nth-child(23) {
+    animation-delay: 2.3s;
+  }
+  .lettre:nth-child(24) {
+    animation-delay: 2.4s;
+  }
+  .lettre:nth-child(25) {
+    animation-delay: 2.5s;
+  }
+  .lettre:nth-child(26) {
+    animation-delay: 2.6s;
+  }
+  .lettre:nth-child(27) {
+    animation-delay: 2.7s;
+  }
+  .lettre:nth-child(28) {
+    animation-delay: 2.8s;
+  }
+  .lettre:nth-child(29) {
+    animation-delay: 2.9s;
+  }
+  .lettre:nth-child(30) {
+    animation-delay: 3s;
+  }
+  .lettre:nth-child(31) {
+    animation-delay: 3.1s;
+  }
+  .lettre:nth-child(32) {
+    animation-delay: 3.2s;
+  }
+  .lettre:nth-child(33) {
+    animation-delay: 3.3s;
+  }
+
+  .fondu-out {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
   .mobile {
+    color: white;
     width: 100%;
-    background: #000;
+    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #000;
+    padding-top: 35%;
+  }
+
+  html {
+    background-color: black;
+  }
+  .mobile img {
+    width: 200px;
+  }
+
+  header,
+  main,
+  footer {
+    display: none;
+  }
+
+  .loader {
+    display: none;
   }
 
   .lettre {
