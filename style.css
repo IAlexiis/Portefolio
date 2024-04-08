@@ -174,6 +174,12 @@ header a:hover:after {
 
 /* MAIN */
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #barre {
   background-color: black;
   height: 200px;
@@ -207,6 +213,7 @@ header a:hover:after {
   padding: 50px 0;
   justify-content: center;
   align-items: center;
+  width: 85%;
 }
 
 #accueil img {
@@ -245,7 +252,7 @@ header a:hover:after {
 
 /* MAIN */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .mobile {
     display: block;
     color: white;
@@ -256,7 +263,7 @@ header a:hover:after {
     justify-content: center;
     font-size: 15px;
     text-align: center;
-    padding-top: 40%;
+    padding-top: 22%;
     flex-direction: column;
   }
 
