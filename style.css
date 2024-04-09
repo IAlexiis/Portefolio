@@ -784,7 +784,7 @@
     text-align: center;
     flex-direction: column;
     background-color: #000;
-    padding-top: 30%;
+    padding-top: 10%;
   }
 
   html {
@@ -970,7 +970,7 @@
   .lettre {
     color: #484848;
     font-size: 80px;
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     margin-bottom: 150px;
     animation: flash 1.2s linear infinite;
     font-size: 40px;
