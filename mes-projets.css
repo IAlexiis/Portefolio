@@ -304,7 +304,7 @@
   }
 
   .simon {
-    width: 40%;
+    width: 35%;
     border-radius: 10px;
     transition: 0.7s;
   }
@@ -355,7 +355,7 @@
   }
 
   .card2 video {
-    width: 40%;
+    width: 35%;
     border-radius: 10px;
     transition: 0.5s;
   }
@@ -409,7 +409,7 @@
 
   .nadal {
     border-radius: 10px;
-    width: 30%;
+    width: 25%;
   }
 
   .card4 {
@@ -435,11 +435,13 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
+    padding: 20px 0;
   }
 
   .column img {
     width: 75%;
     border-radius: 10px;
+    object-fit: cover;
   }
 
   .card5 {
