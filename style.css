@@ -784,6 +784,7 @@
     text-align: center;
     flex-direction: column;
     background-color: #000;
+    padding-top: 30%;
   }
 
   html {
@@ -933,7 +934,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .mobile {
     color: white;
     width: 100%;
@@ -945,7 +946,7 @@
     text-align: center;
     flex-direction: column;
     background-color: #000;
-    padding-top: 13%;
+    padding-top: 40%;
   }
 
   html {
